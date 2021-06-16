@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+    margin: 24px;
+}
+
+li:hover {
+    color: rgb(135, 135, 135);
+}
+
+/* #### NAVBAR #### */
+
+header {
+    height: 105px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-nav {
+    width: 260px;
+    height: 140px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.nav-links {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-nav-bar {
+    margin-right: 30px;
+}
+
+.btn-condu {
+    width: 160px;
+    height: 55px;
+    font-size: 24px;
+    border: none;
+    border-radius: 23px;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn-condu:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-anu {
+    width: 160px;
+    height: 55px;
+    font-size: 24px;
+    border: none;
+    border-radius: 23px;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn-anu:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
