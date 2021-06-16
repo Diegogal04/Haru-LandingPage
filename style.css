@@ -91,7 +91,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: tomato;
 }
 
 .img-container-inicio {
@@ -117,4 +116,24 @@ header {
 .container-grid {
     display: flex;
     justify-content: center;
+}
+
+.info-grid {
+    width: 1100px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-card {
+    width: 300px;
+    height: 350px;
+    /* background-color: yellow; */
+    text-align: center;
+    
+}
+
+.img-grid {
+    margin-top: 25px;
 }
