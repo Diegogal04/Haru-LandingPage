@@ -129,11 +129,42 @@ header {
 .info-card {
     width: 300px;
     height: 350px;
-    /* background-color: yellow; */
     text-align: center;
+    margin: 20px;
+    padding: 12px;
     
 }
 
+.title-card {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .img-grid {
-    margin-top: 25px;
+    margin-top:50px;
+}
+
+.fa-bullseye {
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.fa-eye  {
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.fa-lightbulb {
+    font-size: 80px;
+    margin-top: 50px; 
+}
+
+.fa-dollar-sign {
+    font-size: 80px;
+    margin-top: 50px; 
+}
+
+.fa-calendar-day {
+    font-size: 80px;
+    margin-top: 50px;
 }
