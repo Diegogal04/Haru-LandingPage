@@ -244,6 +244,16 @@ header {
 .hook-p {
     width: 600px;
     font-size: 30px;
-    margin-bottom: 17px;
+    margin-bottom: 50px;
 }
 
+.btn-conductor {
+    width: 160px;
+    font-size: 18px;
+    border: none;
+    background-color: #576774;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
