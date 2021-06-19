@@ -332,3 +332,30 @@ form {
     color: white;
 }
 
+/* #### FOOTER #### */
+
+footer {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-icons {
+    color: white;
+    font-size: 2rem;
+    margin: 13px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: white;
+    font-size: 20px;
+}
+
+.manda-mail {
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+}
