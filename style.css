@@ -170,10 +170,6 @@ header {
 }
 
 /* #### NOSOTROS #### */
-.nosotros {
-
-}
-
 .contaienr-info-nosotros {
     height: 500px;
     display: flex;
@@ -359,3 +355,143 @@ footer {
     height: 40px;
     font-size: 17px;
 }
+
+/* #### MEDIA QUERIES IPHONE #### */
+@media screen and (max-width: 600px) {
+    .logo-nav {
+        width: 120px;
+        height: 70px;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+
+    .btn-anu {
+        display: none;
+    }
+
+    .btn-condu {
+        display: none;
+    }
+
+    .inicio {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .slogan-container-inicio {
+        width: 280px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    .inicio-slogan {
+       font-size: 30px;
+    }
+
+    .img-container-inicio {
+        width: 320px;
+        height: 180px;
+    }
+
+    .info-grid {
+        display: flex;
+        flex-wrap: wrap;
+        margin: none;
+        height: 2000px;
+    }
+
+    .info-card {
+        margin: 5px;
+        height: 290px;
+    }
+
+    .card-1 {
+        margin-top: 40px;
+    }
+    
+    .conductores {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 680px;
+    }
+
+    .conductor-img-container {
+        width: 335px;
+        height: 230px;
+        margin-right: 50px;
+    }
+
+    .hook-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .hook-p {
+        font-size: 18px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .btn-conductor {
+        margin-left: 70px;
+    }
+
+    .conductores-hook {
+        width: 300px;
+    }
+
+    .contaienr-info-nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 700px;
+    }
+
+    .nosotros-intro {
+        width: 300px;
+        font-size: 35px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+    .nosotros-p {
+        width: 300px;
+    }
+
+    .btn-mas {
+        margin-bottom: 70px;
+    }
+
+    .contact-box {
+        width: 350px;
+        height: 550px;
+        border-radius: 25px;
+        margin-top: 50px;
+    }
+ 
+    .input-field {
+        width: 275px;
+    }
+ 
+    form {
+        margin: 10px;
+    }
+
+    .social-icons {
+        font-size: 15px;
+    }
+
+    .copyright {
+        font-size: 15px;
+    }
+
+    .manda-mail {
+        width: 60px;
+        font-size: 10px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+  }
