@@ -257,3 +257,78 @@ header {
     color: white;
     cursor: pointer;
 }
+
+/* #### CONTACT #### */
+
+.contact-sect {
+    height: 850px;
+}
+
+.contact {
+    height: 800px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.contact-box {
+    width: 500px;
+    margin-top: 6rem;
+    background-color: white;
+    box-shadow: 0 0 20px 0 black;
+    
+}
+
+.higlight-contact {
+    display: inline;
+    font-style: normal;
+    background-image: linear-gradient(0deg,black 15%,transparent 0);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 35px;
+}
+
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.contactsub-btn {
+    border-radius: 20px;
+    color: black;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contactsub-btn:hover {
+    background-color:  black;
+    color: white;
+}
+
