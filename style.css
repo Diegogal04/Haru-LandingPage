@@ -359,3 +359,60 @@ footer {
     height: 40px;
     font-size: 17px;
 }
+
+/* #### MEDIA QUERIES IPHONE #### */
+@media screen and (max-width: 600px) {
+    
+    .nav-links {
+        display: none;
+    }
+
+    .btn-anu {
+        display: none;
+    }
+
+    .btn-condu {
+        display: none;
+    }
+
+    .inicio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inicio-slogan {
+       
+       font-size: 22px;
+    }
+
+    .img-container-inicio {
+        width: 300px;
+        height: 200px;
+    }
+
+    .info-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-container {
+        display: none;
+    }
+
+    .contact-title {
+        display: none;
+    }
+
+    .conductores {
+        display: none;
+    }
+
+    .contaienr-info-nosotros {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+  }
