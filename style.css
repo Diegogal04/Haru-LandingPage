@@ -360,6 +360,10 @@ footer {
 
 /* #### MEDIA QUERIES IPHONE #### */
 @media screen and (max-width: 600px) {
+    header {
+        position: relative;
+    }
+
     .logo-nav {
         width: 120px;
         height: 70px;
