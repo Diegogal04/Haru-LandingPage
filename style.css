@@ -22,11 +22,13 @@ li:hover {
 /* #### NAVBAR #### */
 
 header {
+    width: 100%;
     height: 105px;
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 .logo-nav {
@@ -38,7 +40,7 @@ header {
 
 .nav-links {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     cursor: pointer;
     font-weight: bold;
@@ -49,9 +51,9 @@ header {
 }
 
 .btn-condu {
-    width: 160px;
-    height: 55px;
-    font-size: 24px;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
     border: none;
     border-radius: 23px;
     background-color: white;
@@ -67,9 +69,9 @@ header {
 }
 
 .btn-anu {
-    width: 160px;
-    height: 55px;
-    font-size: 24px;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
     border: none;
     border-radius: 23px;
     background-color: white;
@@ -358,6 +360,10 @@ footer {
 
 /* #### MEDIA QUERIES IPHONE #### */
 @media screen and (max-width: 600px) {
+    header {
+        position: relative;
+    }
+
     .logo-nav {
         width: 120px;
         height: 70px;
