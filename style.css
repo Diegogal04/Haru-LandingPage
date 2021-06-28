@@ -113,6 +113,18 @@ header {
     font-size: 60px;
 }
 
+.btn-contact-inicio {
+    width: 160px;
+    font-size: 18px;
+    border: none;
+    background-color: #576774;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin: 40px 0px 0px 10px;
+}
+
 /* #### CONTAINER-GRID #### */
 
 .container-grid {
