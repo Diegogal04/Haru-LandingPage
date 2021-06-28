@@ -501,3 +501,64 @@ footer {
         margin-right: 10px;
     }
   }
+
+  /* #### MEDIA QUERIES IPAD #### */
+
+@media screen and (max-width: 1400px) and (min-width: 400px) {
+    .logo-nav {
+        width: 130px;
+        height: 80px;
+        margin-left: 15px;
+    }
+
+    .nav-links {
+        font-size: 16px;
+    }
+
+    .btn-condu {
+        width: 110px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    .btn-anu {
+        width: 110px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    .slogan-container-inicio {
+        width: 400px;
+    }
+
+    .inicio-slogan {
+        font-size: 45px;
+    }
+
+    .img-container-inicio {
+        width: 400px;
+        height: 250px;
+    }
+
+    .nosotros-intro {
+        font-size: 30px;
+    }
+
+    .hook-title {
+        font-size: 30px;
+    }
+
+    .conductor-img-container {
+        width: 400px;
+        height: 300px;
+    }
+
+    .conductores-hook {
+        width: 300px;
+    }
+
+    .hook-p {
+        font-size: 20px;
+        width: 300px;
+    }
+}
